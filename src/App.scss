@@ -1,0 +1,22 @@
+@import "custom";
+
+
+
+span{
+    color: rgb(155, 155, 155);
+    font-size: smaller;
+    padding-bottom: 7px;
+}
+
+.cardComponent {
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.homeReadMore {
+    &:hover{
+        cursor: pointer;
+        color: blue;
+    }
+}
